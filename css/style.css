@@ -1,0 +1,261 @@
+* {
+	font-family: 'Poppins', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin-top: 80px;
+}
+
+#menu-superior{
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.banner {
+	min-height: 100vh;
+	background-image: url(../img/Layer\ 5.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.banner2{
+	background-image: url(../img/Vector\ Smart\ Object2.png);
+	min-height: 100vh;
+	background-size: contain;
+}
+
+#btn-free {
+	border-radius: 40px;
+	height: 3.5rem;
+	width: 160px;
+	border: none;
+	color: #FFF;
+	background-color: #2500f9;
+	font-weight: bold;
+}
+
+#links {
+	font-weight: bold;
+	font-size: 16px
+}
+
+#links:hover {
+	border-bottom: 1px solid #616368;
+}
+
+#titulo{
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#titulo p{
+	margin-top: 10px;
+	line-height: 0;
+}
+
+#titulo h5{
+	color: #242f51;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#lifestyle{
+	font-weight: bold;
+	color: #242f51;
+	font-size: 60px;
+}
+
+#btn-free2 {
+	border-radius: 40px;
+	height: 3.5rem;
+	width: 160px;
+	border: none;
+	color: #FFF;
+	background-color: #2500f9;
+	font-weight: bold;
+}
+
+#btn-video{
+	border: none;
+	background: transparent;
+	color: #2500f9;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+#btn-lear{
+	margin-top: 1.5rem;
+	border-radius: 20px;
+	width: 35%;
+	height: 3rem;
+}
+
+#titulo-app h5{
+	margin-top: 90px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	color: #242f51;
+	font-weight: bold;
+}
+
+#titulo-app label{
+	font-size: 12px;
+	margin-bottom: 50px;
+}
+
+p.title-icon{
+	color: #242f51;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 0.3rem;
+}
+.col-4 label{
+	font-size: 12px;
+	padding: 0;
+	margin-bottom: 4rem;
+}
+
+#Accordion{
+	width: 70%;
+}
+
+#linha2{
+	margin: 0;
+}
+
+.accordion-button{
+	background: #DCDCDC;
+}
+
+p.espace{
+	margin: 7px;
+}
+
+h2{
+	font-size: 16px;
+	margin: 0;
+	color: #242f51;
+}
+
+#left {
+	margin-top: 100px;
+	text-align: left;
+	
+}
+
+#left h5 {
+	color: #242f51;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 80px;
+}
+
+#left label{
+	font-size: 12px;
+	margin-left: 80px;
+}
+
+#appStore{
+	margin-right: 10px;
+}
+
+#espaco{
+	margin-top: 20px;
+}
+
+#image{
+	width: 90%;
+	height: 20rem;
+	background-position: right;
+}
+
+#banner-color{
+	background-color: #242f51;
+	height: 400px;
+}
+
+#logo2{
+	margin-top: 60px;
+	position: relative;
+	background-position: top;
+}
+
+.icons2{
+	margin-top: 30px;
+}
+
+.icons2 a{
+	color: #FFF;
+}
+
+.social img{
+	width: 30px;
+	height: 30px;
+}
+
+.social{
+	margin-top: 20px;
+	padding: 15px;
+	transition: transform 0.5s;
+}
+
+.social:hover{
+	background-color: #242f51;
+	transform: scale(1.1);
+	transform: translateY(-5px);
+}
+
+.copy{
+	color: #FFF;
+	opacity: 0.1;
+	font-size: 13px;
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 948px) {
+	#btn-free{
+		margin-left: 1rem;
+		display: none;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	#titulo{
+		margin-top: 20px;
+	}
+	#titulo h5{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	#choice{
+		height: 40px;
+		margin-top: 10px;
+	}
+	#lifestyle{
+		font-size: 30px;
+	}
+	.text{
+		font-size: 12px;
+	}
+	.btn-mobile{
+		display: flex;
+	}
+	#btn-video{
+		margin-top: 0;
+	}
+	#mobile{
+		width: 100vw;
+		height: 70vh;
+	}
+	#mobile2{
+		width: 50vw;
+		height: 50vh;
+	}	
+}
